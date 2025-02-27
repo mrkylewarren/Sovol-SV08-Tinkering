@@ -220,6 +220,27 @@ This document is a complete context prompt to train a future AI to assist you, b
   #---------------- End Changed Setting: Homing Sequence ----------------#
 
 
+4. **Commit the Changes**:
+   - Scroll to the bottom of the editor.
+   - In the “Commit changes” box, enter a message like: `Add Markdown headings to General Context.md`.
+   - Optional: Add a description like `Added # for headings and ## for subheadings to fix rendering.`
+   - Click `Commit changes`.
+
+---
+
+### What It’ll Look Like
+Once you commit this, GitHub will render your file with proper headings and subheadings, making it way easier to read and navigate. The `#` symbols tell GitHub exactly what’s a heading, so "1. General Situation" will pop out as a big, bold section, and "Who You Are" will nest neatly under it.
+
+---
+
+### Pro Tip: Code Blocks
+If you’ve got any config snippets in there (like Klipper settings), wrap them in triple backticks (```) to make them stand out and keep them copy-paste-friendly. For example:
+
+```ini
+[gcode_macro START_PRINT]
+G28.1 Y ; Home Y without recursion
+G28.1 X ; Home X without recursion
+G28.1 Z ; Home Z with Eddy
 
 
 
