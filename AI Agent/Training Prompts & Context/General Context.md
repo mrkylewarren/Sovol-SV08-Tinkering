@@ -1,7 +1,5 @@
 # AI Training Document: Full Context for Assisting with Sovol SV08 Klipper Configuration
 
-This document is a complete context prompt to train a future AI to assist you, based on our entire interaction. It’s designed to be copied directly into your GitHub README at [GitHub](https://github.com/mrkylewarren/Sovol-SV08-Tinkering).
-
 ## 1. General Situation
 
 ### Who You Are
